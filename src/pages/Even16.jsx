@@ -18,26 +18,26 @@ const Even16 = () => {
     }, [])
 
     return (
-        <div className='max-w-[1250px] mx-auto mt-44'>
+        <div className='max-w-[1250px] mx-auto mt-44 max-sm:px-5'>
             <h1 className='text-3xl font-medium'></h1>
-            <table className="min-w-full text-center text-xl font-medium mt-16 border-blue-600 border-b-2">
+            <table className="min-w-full text-center text-xl max-sm:text-lg font-medium mt-16 border-blue-600 border-b-2">
                 <thead
-                    className="border-b bg-blue-700 font-medium text-white text-xl">
+                    className="border-b bg-blue-700 font-medium text-white text-xl max-sm:text-lg">
                     <tr>
-                        <th scope="col" className=" px-6 py-4">#</th>
-                        <th scope="col" className=" px-6 py-4">Name</th>
-                        <th scope="col" className=" px-6 py-4">Homework</th>
-                        <th scope="col" className=" px-6 py-4">Vocabulary</th>
+                        <th scope="col" className=" px-6 max-sm:px-3 py-4">#</th>
+                        <th scope="col" className=" px-6 max-sm:px-3 py-4">Name</th>
+                        <th scope="col" className=" px-6 max-sm:px-3 py-4">Homework</th>
+                        <th scope="col" className=" px-6 max-sm:px-3 py-4">Vocabulary</th>
                     </tr>
                 </thead>
                 <tbody  >
                     {state.map((data) => {
                         return (
                             <tr key={data.id} className="border-b-2 border-blue-600">
-                                <td className="whitespace-nowrap  px-6 py-4 font-medium">{data.id}</td>
-                                <td className="whitespace-nowrap  px-6 py-4 ">{data.name}</td>
-                                <td className="whitespace-nowrap  px-6 py-4 text-red-500">{data.homework} marta qilinmagan (Jami)</td>
-                                <td className="whitespace-nowrap  px-6 py-4 text-red-500">{data.vocabulary} tasi yozilmagan (Jami)</td>
+                                <td className="whitespace-nowrap  px-6 max-sm:px-3 py-4 font-medium">{data.id}</td>
+                                <td className="whitespace-nowrap  px-6 max-sm:px-3 py-4 ">{data.name}</td>
+                                <td className="whitespace-nowrap  px-6 max-sm:px-3 py-4 text-red-500">{data.homework} marta qilinmagan (Jami)</td>
+                                <td className="whitespace-nowrap  px-6 max-sm:px-3 py-4 text-red-500">{data.vocabulary} tasi yozilmagan (Jami)</td>
                             </tr>
                         )
                     })}
