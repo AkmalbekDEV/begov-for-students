@@ -19,7 +19,7 @@ const Odd14 = () => {
 
     return (
         <div className='max-w-[1250px] mx-auto mt-44 max-sm:px-5'>
-            <h1 className='text-3xl font-medium'></h1>
+            <h1 className='text-2xl font-medium max-sm:text-center'><span className='text-red-500 text-3xl'>Eslatma:</span> Agar Homework xatoliklari 3 tadan oshsa yoki Vocabulary xatoliklari 70 tadan oshsa, o'quvchi qizil ro'yxatga tushadi. Qizil ro'yxatga tushgan o'quvchi o'z ismini rangidan bilib olishi mumkin.</h1>
             <table className="min-w-full text-center text-xl max-sm:text-lg font-medium mt-16 border-blue-600 border-b-2">
                 <thead
                     className="border-b bg-blue-700 font-medium text-white text-xl">
