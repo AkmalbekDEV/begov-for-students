@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className='flex items-center justify-center w-full h-screen'>
       <div className='grid gap-10'>
-        <h1 className='text-5xl text-blue-600 text-center font-bold'>Guruh tanlang</h1>
+        <h1 className='text-5xl text-blue-600 text-center font-bold'>Guruhingizni tanlang</h1>
         <div className='grid grid-cols-3 gap-5 max-sm:grid-cols-2'>
           {state.map((product) => {
             return (
