@@ -19,7 +19,7 @@ const Odd16 = () => {
 
     return (
         <div className='max-w-[1250px] mx-auto mt-44 max-sm:px-5'>
-            <h1 className='text-2xl font-medium max-sm:text-center text-blue-700 shadow-xl rounded-xl p-5 max-sm:text-lg'><span className='text-red-500 text-3xl max-sm:text-xl'>Eslatma:</span> Agar Uyga vazifani siz 3 marotabadan ko'p bajarmasangiz yoki 1 oy davomida Vocabularyda 70 ko'p xato qilsangiz, qizil ro'yxatga tushasiz va imtihondan chetlashtirilasiz. Qizil ro'yxatga tushgan o'quvchi o'z ismini rangidan bilib olishi mumkin.</h1>
+            <h1 className='text-2xl font-medium max-sm:text-center text-blue-700 shadow-xl rounded-xl p-5 max-sm:text-lg'><span className='text-red-500 text-3xl max-sm:text-xl'>Eslatma:</span> Agar Uyga vazifani siz 3 marotabadan ko'p bajarmasangiz yoki 1 oy davomida Vocabularyda 70 dan ko'p xato qilsangiz, qizil ro'yxatga tushasiz va imtihondan chetlashtirilasiz. Qizil ro'yxatga tushgan o'quvchi o'z ismini rangidan bilib olishi mumkin.</h1>
             <table className="min-w-full text-center text-xl max-sm:text-lg font-medium mt-16 border-blue-600 border-b-2">
                 <thead
                     className="border-b bg-blue-700 font-medium text-white text-xl">
